@@ -44,7 +44,7 @@ pcall(function()
         settings = { python = { analysis = { typeCheckingMode = 'off' }}},
         on_new_config = function(config, root_dir)
             config.settings.python.pythonPath =
-                vim.trim(vim.fn.system('uv run --project "' .. root_dir .. '" which python'))
+                vim.trim(vim.fn.system('uv python find --project "' .. root_dir))
         end
     }
 
