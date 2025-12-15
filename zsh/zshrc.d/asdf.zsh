@@ -1,4 +1,4 @@
-if [[ -f ~/.asdf/asdf.sh ]]; then
-    . ~/.asdf/asdf.sh
-    fpath[1,0]=(${ASDF_DIR}/completions)
+export ASDF_DATA_DIR=$HOME/.asdf
+if [[ -d $ASDF_DATA_DIR ]]; then
+    path[1,0]=(${ASDF_DATA_DIR}/shims)
 fi
