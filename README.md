@@ -5,7 +5,7 @@ been evolving for over two decades of fun-filled whimsy.
 
 ## Installation
 
-Source zsh/startup.zsh from your zshenv.  Pass it a prompt title and prompt
+Source `zsh/startup.zsh` from your zshenv.  Pass it a prompt title and prompt
 color as arguments.
 
 You don't need to do anything in
@@ -36,3 +36,9 @@ You might want to configure Vim fonts in `local/pre.vim`, e.g.
 let g:sv_font="Garply_Sans:h12"
 let g:big_font="Garply_Sans:h18"
 ```
+
+## Windows Support
+
+A lot of this stuff sort of works on Windows.
+`nushell` is my preferred shell there, and its config bootstrap is `config.nu` in
+`$nu.default-config-dir`, which is typically `%AppData%\nushell`.

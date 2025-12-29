@@ -5,7 +5,7 @@ disabled = false
 format = '[$indicator](style)'
 zsh_indicator = ''
 xonsh_indicator = '🐚'
-nu_indicator = '⎉'
+nu_indicator = 'νυ'
 
 [palettes.catppuccin_frappe]
 rosewater = "#f2d5cf"
@@ -310,7 +310,7 @@ symbol = " "
 symbol = "󰏗 "
 
 [python]
-pyenv_version_name = true
+python_binary = [["uv", "run", "--no-python-downloads", "python"]]
 format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
 #symbol = " "
 
