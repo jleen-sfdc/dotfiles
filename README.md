@@ -1,4 +1,4 @@
-%# Saturn Valley Dotfiles of Destiny
+# Saturn Valley Dotfiles of Destiny
 
 Contains jleen's lovingly hand-wrangled battle-scarred Unix config that has
 been evolving for over two decades of fun-filled whimsy.
