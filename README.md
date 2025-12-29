@@ -1,4 +1,4 @@
-# Saturn Valley Dotfiles of Destiny
+%# Saturn Valley Dotfiles of Destiny
 
 Contains jleen's lovingly hand-wrangled battle-scarred Unix config that has
 been evolving for over two decades of fun-filled whimsy.
@@ -42,3 +42,6 @@ let g:big_font="Garply_Sans:h18"
 A lot of this stuff sort of works on Windows.
 `nushell` is my preferred shell there, and its config bootstrap is `config.nu` in
 `$nu.default-config-dir`, which is typically `%AppData%\nushell`.
+
+The preferred Vim is NeoVim via Neovide, and the config bootstrap is
+`%LocalAppData%\nvim\init.vim`.
