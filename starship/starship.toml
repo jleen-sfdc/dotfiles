@@ -5,7 +5,7 @@ disabled = false
 format = '[$indicator](style)'
 zsh_indicator = ''
 xonsh_indicator = '🐚'
-nu_indicator = 'νυ'
+nu_indicator = '[▶](cyan)'
 
 [palettes.catppuccin_frappe]
 rosewater = "#f2d5cf"
