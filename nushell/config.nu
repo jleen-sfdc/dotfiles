@@ -34,13 +34,13 @@ if (which starship | is-not-empty) {
 
     # SSH detection and hostname
     let ssh = if ($env.SSH_CONNECTION? != null) {
-      $"(ansi green_bold)($env.HOSTNAME)(ansi reset) "
+      $"(ansi green_bold)(sys host | get hostname)(ansi reset) "
     } else {
       ""
     }
 
     let xssh = if ($env.SSH_CONNECTION? != null) {
-      $"($env.HOSTNAME) "
+      $"(sys host | get hostname) "
     } else {
       ""
     }
